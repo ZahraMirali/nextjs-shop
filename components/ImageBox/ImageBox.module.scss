@@ -1,0 +1,18 @@
+@import 'assets/styles/variables';
+
+.imageContainer {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem;
+  background: linear-gradient($my-primary-green,$my-secondary-green,$my-dark-green);
+
+  img {
+    mix-blend-mode: multiply;
+    width: 80%;
+    max-height: 100%;
+
+  }
+}

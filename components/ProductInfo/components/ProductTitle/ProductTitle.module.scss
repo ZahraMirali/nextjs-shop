@@ -1,0 +1,17 @@
+@import "assets/styles/variables";
+
+.container {
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-style: oblique;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    color: $my-gray;
+    margin: 0;
+  }
+}

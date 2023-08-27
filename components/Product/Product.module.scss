@@ -1,0 +1,10 @@
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+  }
+}

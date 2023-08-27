@@ -1,0 +1,14 @@
+.container {
+  flex: 5;
+  padding: 1.6rem;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .headerLeftBox {
+
+    }
+  }
+}

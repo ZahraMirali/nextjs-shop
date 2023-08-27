@@ -1,0 +1,38 @@
+@import 'assets/styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0;
+  align-items: center;
+
+  button {
+    all: unset;
+    padding: .5rem 2rem;
+    color: white;
+    background: linear-gradient($my-red, #ffa0a0);
+    font-size: .8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 4px 1px $my-red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+    img {
+      margin: 0 5px;
+    }
+
+    &:hover {
+      box-shadow: 0 3px 4px 2px $my-red;
+      padding: .5rem 3rem;
+    }
+  }
+
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+}

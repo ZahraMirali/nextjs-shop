@@ -1,0 +1,36 @@
+@import './assets/styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0 4rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  h5 {
+    margin: 0 0 20px;
+    @media (max-width: 768px) {
+      margin: 20px 0;
+    }
+  }
+
+  .colorContainer {
+    .colorPickerList {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .separator {
+    position: relative;
+    top: 10px;
+    border-left: 1px solid $my-gray;
+    opacity: .7;
+    margin: 0 2.5rem;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

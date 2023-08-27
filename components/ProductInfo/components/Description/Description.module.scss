@@ -1,0 +1,15 @@
+@import 'assets/styles/variables';
+
+.container {
+
+  h5 {
+    margin: 1.5rem 0 .5rem;
+    font-style: oblique;
+    font-size: 1.2rem;
+  }
+  .descriptionText {
+    color: $my-gray;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+  }
+}
